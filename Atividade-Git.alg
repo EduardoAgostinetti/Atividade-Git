@@ -17,10 +17,12 @@ inicio
  escreval ("Informe o 2° numero:")
  leia (num2)
  soma <- num1 + num2
+funcao f_soma (p_num1,p_num2: real):real
 
  retorne soma
  escreval
 fimfuncao
+
 
 funcao f_multiplicacao (p_num1,p_num2: real):real
 var
