@@ -8,6 +8,7 @@ var
 num1,num2, soma, multiplicacao: real
 i: inteiro
      
+
 funcao f_soma (p_num1,p_num2: real):real
 var
 inicio
