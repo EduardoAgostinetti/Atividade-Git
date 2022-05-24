@@ -2,6 +2,7 @@ algoritmo "semnome"
 // Função :soma
 // Autor : Eduardo Cardoso Agositinetti
 //         Gustavo da Silva Ramos
+//         André Bigaran
 // Data : 5/23/2022
 
 var
