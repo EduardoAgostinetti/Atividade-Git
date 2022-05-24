@@ -23,6 +23,18 @@ funcao f_soma (p_num1,p_num2: real):real
  escreval
 fimfuncao
 
+funcao f_subtracao (p_num1,p_num2: real):real
+var
+inicio
+ escreval ("Informe o 1° numero:")
+ leia (num1)
+ escreval ("Informe o 2° numero:")
+ leia (num2)
+ subtracao <- num1 - num2
+
+ retorne subtracao
+ escreval
+fimfuncao
 
 funcao f_multiplicacao (p_num1,p_num2: real):real
 var
@@ -64,7 +76,7 @@ escolha(i)
 caso 1
  escreval (" O resultado é: ", f_soma (num1, num2))
 caso 2
- f_subtracao  (num1, num2)
+ escreval (" O resultado é: ",f_subtracao (num1, num2))
 caso 3
  escreval (" O resultado é: ", f_multiplicacao (num1, num2))
 caso 4
