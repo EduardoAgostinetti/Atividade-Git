@@ -1,0 +1,22 @@
+algoritmo "Atividade_Par"
+// Função : identificar pares
+// Seção de Declarações 
+var
+   n1, n2, n3 : inteiro
+inicio
+// Seção de Comandos
+ 
+   escreva("Insira seu primeiro numero:")
+   leia(n1)
+   escreva("Insira seu segundo numero:")
+   leia(n2)
+   escreva("Insira seu terceiro numero:")
+   leia(n3)4
+   
+   se (n1%2 = 0) e (n2%2 = 0) e (n3%2 = 0) entao
+      escreva("Foi aplicada a regra de 10 com os números: ", " ", n1, " ", n2, " ", n3)
+      senao
+      escreva("Foi aplicada a regra de 19 com os números: ", n3, " ", n2, " ", n1)
+      fimse
+      
+fimalgoritmo
