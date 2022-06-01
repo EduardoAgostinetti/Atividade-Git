@@ -13,16 +13,12 @@ inicio
    vet[7] <- 21
    vet[8] <- 19
    vet[9]<- 57
-
-
    para ind <- 0 ate 9 passo 1 faca
    cont <- 0
-      escreval(vet[ind])
-      para i de 0 ate 9 faca
+            para i de vet[ind] ate 0 passo -1 faca
          se vet[ind] mod  i = 0 entao
             cont <- cont+1
          fimse
-         i <- i+1
       fimpara
       se cont = 2 entao
          escreval("o numero", vet[ind]," e primo!")
@@ -31,5 +27,3 @@ inicio
       fimse
    fimpara
 fimalgoritmo
-
-
